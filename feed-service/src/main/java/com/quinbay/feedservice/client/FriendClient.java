@@ -17,7 +17,4 @@ import java.util.List;
 public interface FriendClient {
 	@RequestMapping(method= RequestMethod.POST, path="/fetchUserSocial")
 	FriendsSocialDTO fetchFriendList(@RequestParam("userName") String UserName);
-
-
-
 }
